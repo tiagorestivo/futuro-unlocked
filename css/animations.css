@@ -1,39 +1,24 @@
 @keyframes ripple{
 
 0%{
-
 opacity:.6;
-
 transform:
-
 translate(-50%,-50%)
-
 scale(.2);
-
 }
 
 100%{
-
 opacity:0;
-
 transform:
-
 translate(-50%,-50%)
-
 scale(4);
-
 }
-
 }
 
 .animateRipple{
 
 animation:
-
 ripple
-
 450ms
-
 ease-out;
-
 }
