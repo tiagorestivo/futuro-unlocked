@@ -16,7 +16,7 @@ e.clientY-rect.top
 });
 
 function release(){
-image.src="assets/start.png";
+image.src="assets/start_normal.png";
 button.classList.remove("pressed");
 }
 
