@@ -27,13 +27,27 @@ font-family:sans-serif;
 }
 
 #background{
+  position:absolute;
+  inset:0;
+  background:#009345;
+}
 
-position:absolute;
+#background-1{
+  position:absolute;
+  inset:0;
+  background:#fff100;
+}
 
-inset:0;
+#background-2{
+  position:absolute;
+  inset:0;
+  background:#262261;
+}
 
-background:#009345;
-
+#background-3{
+  position:absolute;
+  inset:0;
+  background:#e8196d;
 }
 
 #startButton{
